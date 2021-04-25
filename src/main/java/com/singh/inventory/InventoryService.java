@@ -10,5 +10,6 @@ public interface InventoryService {
     List<Inventory> getInventoryList();
     void addToList(Inventory inventory);
     void removeFromList(Inventory inventory);
-    Inventory getInventoryById(Long id);//
+
+    Inventory getInventoryById(Long id);
 }
